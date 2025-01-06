@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -73,15 +74,11 @@ body {
 <!-- This is where we create the Canvas element that will contain the application...-->
 <body>
     <div
-      style="display: inline-block; -webkit-user-select: none; text-align: left"
+      style="display:block; -webkit-user-select: none; text-align: left"
     >
-      <canvas id="MMFCanvas";>
+      <canvas id="MMFCanvas" width="1024" height="768">
         Your browser does not support Canvas.
       </canvas>
-	    <script>
-    document.getElementById("MMFCanvas").height = window.innerHeight;
-    document.getElementById("MMFCanvas").width = window.innerHeight + 256;
-</script>
     </div>
     <script>
         // RUNTIMESTART
